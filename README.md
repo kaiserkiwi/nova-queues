@@ -1,8 +1,8 @@
-# nova-queues
+# Nova Queues for Laravel Nova 4
 
-Queue resource for Laravel Nova.
+Simple Queue resource for Laravel Nova.
 
-Supports only the `database` queue driver.
+**Supports only the `database` queue driver.**
 
 ## Installation
 
