@@ -7,8 +7,8 @@ return [
      */
 
     'models' => [
-        'job' => \Den1n\NovaQueues\Models\Job::class,
-        'failed_job' => \Den1n\NovaQueues\Models\FailedJob::class,
+        'job' => \Kaiserkiwi\NovaQueues\Models\Job::class,
+        'failed_job' => \Kaiserkiwi\NovaQueues\Models\FailedJob::class,
     ],
 
     /**
@@ -16,8 +16,8 @@ return [
      */
 
     'resources' => [
-        'job' => \Den1n\NovaQueues\Resources\Job::class,
-        'failed_job' => \Den1n\NovaQueues\Resources\FailedJob::class,
+        'job' => \Kaiserkiwi\NovaQueues\Resources\Job::class,
+        'failed_job' => \Kaiserkiwi\NovaQueues\Resources\FailedJob::class,
     ],
 
     /**

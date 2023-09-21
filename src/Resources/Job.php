@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Resources;
+namespace Kaiserkiwi\NovaQueues\Resources;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -171,7 +171,7 @@ class Job extends Resource
     public function filters(Request $request): array
     {
         return [
-            new \Den1n\NovaQueues\Filters\Queue('job'),
+            new \Kaiserkiwi\NovaQueues\Filters\Queue('job'),
         ];
     }
 

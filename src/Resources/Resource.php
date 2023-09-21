@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Resources;
+namespace Kaiserkiwi\NovaQueues\Resources;
 
 use Illuminate\Support\Facades\Validator as ValidatorFacade;
 use Illuminate\Validation\Validator;

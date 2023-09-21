@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues;
+namespace Kaiserkiwi\NovaQueues;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Nova;

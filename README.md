@@ -9,13 +9,13 @@ Supports only the `database` queue driver.
 Install package with Composer.
 
 ```sh
-composer require den1n/nova-queues
+composer require kaiserkiwi/nova-queues
 ```
 
 Publish package resources.
 
 ```sh
-php artisan vendor:publish --provider=Den1n\NovaQueues\ServiceProvider
+php artisan vendor:publish --provider=Kaiserkiwi\NovaQueues\ServiceProvider
 ```
 
 This will publish the following resources:
@@ -36,7 +36,7 @@ Migrate database.
 php artisan migrate
 ```
 
-Add instance of class `Den1n\NovaQueues\Tool` to your `App\Providers\NovaServiceProvider::tools()` method to display the jobs within your Nova resources.
+Add instance of class `Kaiserkiwi\NovaQueues\Tool` to your `App\Providers\NovaServiceProvider::tools()` method to display the jobs within your Nova resources.
 
 ```php
 /**
@@ -47,7 +47,7 @@ Add instance of class `Den1n\NovaQueues\Tool` to your `App\Providers\NovaService
 public function tools()
 {
     return [
-        new \Den1n\NovaQueues\Tool,
+        new \Kaiserkiwi\NovaQueues\Tool,
     ];
 }
 ```

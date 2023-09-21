@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues;
+namespace Kaiserkiwi\NovaQueues;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

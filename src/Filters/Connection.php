@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Filters;
+namespace Kaiserkiwi\NovaQueues\Filters;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Builder;

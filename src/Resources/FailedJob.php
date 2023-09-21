@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Resources;
+namespace Kaiserkiwi\NovaQueues\Resources;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\Code;
@@ -134,8 +134,8 @@ class FailedJob extends Resource
     public function filters(Request $request): array
     {
         return [
-            new \Den1n\NovaQueues\Filters\Connection,
-            new \Den1n\NovaQueues\Filters\Queue('failed_job'),
+            new \Kaiserkiwi\NovaQueues\Filters\Connection,
+            new \Kaiserkiwi\NovaQueues\Filters\Queue('failed_job'),
         ];
     }
 
@@ -153,7 +153,7 @@ class FailedJob extends Resource
     public function actions(Request $request): array
     {
         return [
-            (new \Den1n\NovaQueues\Actions\Retry)->canRun(function ($request, $job) {
+            (new \Kaiserkiwi\NovaQueues\Actions\Retry)->canRun(function ($request, $job) {
                 return $request->user()->can('create', $job);
             }),
         ];

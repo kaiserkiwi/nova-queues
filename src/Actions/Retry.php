@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Actions;
+namespace Kaiserkiwi\NovaQueues\Actions;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\InteractsWithQueue;

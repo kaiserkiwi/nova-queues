@@ -1,6 +1,6 @@
 <?php
 
-namespace Den1n\NovaQueues\Models;
+namespace Kaiserkiwi\NovaQueues\Models;
 
 use Illuminate\Http\Request;
 
